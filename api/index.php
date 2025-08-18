@@ -41,22 +41,22 @@
 </head>
 <body>
     <!-- Navigation -->
-    <?php include 'sections/navbar.html'; ?>
+    <?php include '../sections/navbar.html'; ?>
     
     <!-- Hero Section -->
-    <?php include 'sections/hero.html'; ?>
+    <?php include '../sections/hero.html'; ?>
     
     <!-- Articles Section -->
-    <?php include 'sections/articles.html'; ?>
+    <?php include '../sections/articles.html'; ?>
     
     <!-- Featured Section -->
-    <?php include 'sections/featured.html'; ?>
+    <?php include '../sections/featured.html'; ?>
     
     <!-- Signup Section -->
-    <?php include 'sections/signup.html'; ?>
+    <?php include '../sections/signup.html'; ?>
     
     <!-- Footer -->
-    <!-- <?php include 'sections/footer.html'; ?> --> 
+    <!-- <?php include '../sections/footer.html'; ?> --> 
     
     <!-- JavaScript Files -->
     <script src="js/navbar.js"></script>
