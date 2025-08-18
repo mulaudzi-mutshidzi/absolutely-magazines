@@ -24,19 +24,19 @@
     <meta name="twitter:image" content="img/twitter-image.jpg">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     
     <!-- CSS Files -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/articles.css">
-    <link rel="stylesheet" href="css/featured.css">
-    <link rel="stylesheet" href="css/signup.css">
-    <!-- <link rel="stylesheet" href="css/footer.css">-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/articles.css">
+    <link rel="stylesheet" href="/css/featured.css">
+    <link rel="stylesheet" href="/css/signup.css">
+    <!-- <link rel="stylesheet" href="/css/footer.css">-->
     
 </head>
 <body>
@@ -59,11 +59,11 @@
     <!-- <?php include __DIR__ . '/../sections/footer.html'; ?> -->
     
     <!-- JavaScript Files -->
-    <script src="js/navbar.js"></script>
-    <script src="js/hero.js"></script>
-    <script src="js/articles.js"></script>
-    <script src="js/featured.js"></script>
-    <script src="js/signup.js"></script>
-    <!-- <script src="js/footer.js"></script>-->
+    <script src="/js/navbar.js"></script>
+    <script src="/js/hero.js"></script>
+    <script src="/js/articles.js"></script>
+    <script src="/js/featured.js"></script>
+    <script src="/js/signup.js"></script>
+    <!-- <script src="/js/footer.js"></script>-->
 </body>
 </html>
