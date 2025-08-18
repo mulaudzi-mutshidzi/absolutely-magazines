@@ -41,22 +41,22 @@
 </head>
 <body>
     <!-- Navigation -->
-    <?php include '../sections/navbar.html'; ?>
-    
+    <?php include __DIR__ . '/../sections/navbar.html'; ?>
+
     <!-- Hero Section -->
-    <?php include '../sections/hero.html'; ?>
-    
+    <?php include __DIR__ . '/../sections/hero.html'; ?>
+
     <!-- Articles Section -->
-    <?php include '../sections/articles.html'; ?>
-    
+    <?php include __DIR__ . '/../sections/articles.html'; ?>
+
     <!-- Featured Section -->
-    <?php include '../sections/featured.html'; ?>
-    
+    <?php include __DIR__ . '/../sections/featured.html'; ?>
+
     <!-- Signup Section -->
-    <?php include '../sections/signup.html'; ?>
-    
+    <?php include __DIR__ . '/../sections/signup.html'; ?>
+
     <!-- Footer -->
-    <!-- <?php include '../sections/footer.html'; ?> --> 
+    <!-- <?php include __DIR__ . '/../sections/footer.html'; ?> -->
     
     <!-- JavaScript Files -->
     <script src="js/navbar.js"></script>
