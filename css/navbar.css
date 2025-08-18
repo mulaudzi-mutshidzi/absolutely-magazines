@@ -5,7 +5,13 @@
    top: 0;
    left: 0;
    z-index: 1000;
+   transition: transform 0.3s ease;
 }
+
+.navbar.scrolled {
+   transform: translateY(-70px);
+}
+
 .navbar-container {
    max-width: 1200px;
    margin: 0 auto;
@@ -25,6 +31,12 @@
 .navbar-main {
     padding: 20px 0;
     border-bottom: 1px solid #e5e5e5;
+    transition: opacity 0.3s ease;
+}
+
+.navbar.scrolled .navbar-main {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .main-content {
@@ -76,6 +88,13 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    transition: all 0.3s ease;
+}
+
+.navbar.scrolled .logo {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) scale(0.9);
 }
 
 .logo img {
@@ -126,6 +145,13 @@
 .navbar-menu {
     background: #fff;
     padding: 15px 0;
+    position: relative;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease;
+}
+
+.navbar.scrolled .navbar-menu {
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
 
 .menu-wrapper {
@@ -173,6 +199,10 @@
 
 .win-prizes-btn:hover {
     box-shadow: -2px 0 0 #231f20, 0 -2px 0 #231f20;
+}
+
+.navbar.scrolled .win-prizes-btn {
+    background: #a67c00;
 }
 
 /* Mobile Navigation */
@@ -437,43 +467,4 @@
 
 .mobile-dropdown-menu li a {
     font-size: 16px;
-}
-
-/* STICKY NAVBAR STYLES */
-
-.navbar-main {
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.navbar-menu {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: #fff;
-    transition: all 0.3s ease;
-}
-
-.navbar.scrolled .navbar-main {
-    transform: translateY(-100%);
-    opacity: 0;
-}
-
-.navbar.scrolled .navbar-menu {
-    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-}
-
-/* Logo transition */
-.logo {
-    transition: all 0.3s ease;
-}
-
-.navbar.scrolled .logo {
-    opacity: 0;
-    visibility: hidden;
-    transform: scale(0.9);
-}
-
-/* button Visibility */
-.navbar.scrolled .win-prizes-btn {
-    background: #a67c00;
 }
