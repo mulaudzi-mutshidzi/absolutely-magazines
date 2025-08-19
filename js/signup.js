@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Clear the form fields
             signupForm.reset();
             
-            // For demo purposes only - in a real implementation, you would handle form submission here
-            console.log('Form submitted (demo only - not actually sent)');
+            // For display purposes only
+            console.log('Form submitted (display purpose only)');
         });
     }
     
